@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora aritmética</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="calculadora">
+        <main>
+            <div class="fila">
+                <div class="res">
+                    <label id="resultados">0</label>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="estado">
+                    <input type="radio" name="estado" id="on" value="on" checked>
+                    <label for="on">ON</label>
+                    <input type="radio" name="estado" id="off" value="off">
+                    <label for="off">OFF</label>
+                </div>
+            </div>
+            <div class="fila">
+                <button onclick="agregar_num('7');">7</button>
+                <button onclick="agregar_num('8');">8</button>
+                <button onclick="agregar_num('9');">9</button>
+                <button onclick="agregar_num('+');">+</button>
+            </div>
+            <div class="fila">
+                <button onclick="agregar_num('4');">4</button>
+                <button onclick="agregar_num('5');">5</button>
+                <button onclick="agregar_num('6');">6</button>
+                <button onclick="agregar_num('-');">-</button>
+            </div>
+            <div class="fila">
+                <button onclick="agregar_num('1');">1</button>
+                <button onclick="agregar_num('2');">2</button>
+                <button onclick="agregar_num('3');">3</button>
+                <button onclick="agregar_num('*');">x</button>
+            </div>
+            <div class="fila">
+                <button id="borrar" onclick="borrar();">C</button>
+                <button onclick="agregar_num('0');">0</button>
+                <button onclick="calcular();">=</button>
+                <button onclick="agregar_num('/');">÷</button>
+            </div>
+        </main>
+    </div>
+    <script src="js/script25.js"></script>
+</body>
+</html>
