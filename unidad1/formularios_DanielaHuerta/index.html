@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey for Product X</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenido">
+        <header>
+            <h1>Survey for Product X</h1>
+        </header>
+        <div class="formulario clearfix">
+            <form action="pagina2.html" method="POST">
+                <section>
+                    <label for="nombre">Name:</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Tu respuesta" required>
+                </section>
+                <section>
+                    <label for="car">What car do you prefer</label><br>
+                    <input type="radio" name="car" id="car" value="Mini car" required class="mini"><img src="img/mini_car.jpg" alt="Mini Car" width="25%">
+                    <input type="radio" name="car" id="car" value="Deportive car" required class="deportive"><img src="img/deportive_car.jpg" alt="Deportive car" width="20%">
+                    <input type="radio" name="car" id="car" value="Car" required><img src="img/car.jpg" alt="Car" width="20%">
+                </section>
+                <footer>
+                    <input type="submit" value="Siguiente">
+                </footer>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

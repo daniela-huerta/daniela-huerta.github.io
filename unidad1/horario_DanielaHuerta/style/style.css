@@ -1,0 +1,38 @@
+table{
+    width:100%;
+    border:none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.lenguajes{
+    background-color: #A8EFD2;
+}
+
+.fdp{
+    background-color: #C8DFD6;
+}
+
+.ingles{
+    background-color: #E7E0F1;
+}
+
+.pw{
+    background-color: #FFD8F6;
+}
+
+.liderazgo{
+    background-color: #E6FFD8;
+}
+
+.idr{
+    background-color: #FFEED8;
+}
+
+tr{
+    height: 50px;
+}
